@@ -1,0 +1,21 @@
+feature,area,priority,original,clone,notes
+Real-time GPS speed tracking,tracking,must,yes,yes,Accurate speed calculation using GPS location updates and Kalman filter
+Digital speedometer display,display,must,yes,yes,Large legible digit display with speed units and neon theme glow
+Analog speedometer gauge,display,should,yes,yes,Circular dial gauge with animated needle and redline limit zone
+Speed unit switcher (km/h mph knots),settings,must,yes,yes,Instant conversion across all stats and gauge
+Distance & trip odometer,metrics,must,yes,yes,Total distance traveled in current session and cumulative
+Time & duration tracker,metrics,must,yes,yes,Elapsed driving time with auto-pause/manual pause
+Average and max speed calculation,metrics,must,yes,yes,Updated dynamically during active session
+Speed limit alert with warning sound/vibrate,safety,must,yes,yes,Configurable threshold with audio/haptic alert and road sign badge
+Head-Up Display (HUD) mode,display,must,yes,yes,Mirrored flipped display for car windshield reflection
+GPS map route recording,mapping,should,yes,yes,Live path trail rendering on interactive OpenStreetMap
+Trip history log with past routes,history,must,yes,yes,Saved SQLite records with date distance time and speeds
+Pause resume and reset trip controls,tracking,must,yes,yes,Manual trip management controls
+Portrait and landscape orientation,display,must,yes,yes,Adaptive layout support for phone dashboard mounts
+Theme colors customization,display,should,yes,yes,Multiple dashboard color schemes (neon green blue red etc.)
+Offline GPS tracking without cellular data,tracking,must,yes,yes,Pure device GPS sensor operation without requiring internet
+Floating window overlay (Picture-in-Picture),display,could,yes,no,System alert window floating over other navigation apps
+Notification bar speed widget,display,could,yes,no,Persistent foreground service notification showing live speed
+Export trip data (GPX or CSV),history,could,yes,no,Export route tracks for external analysis
+Ad banners and interstitials,monetization,skip,yes,skip,Original app has aggressive ads which we omit in clean-room clone
+In-app subscription for ad removal,monetization,could,yes,no,Clean freemium or premium option
